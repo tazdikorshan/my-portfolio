@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lan="en">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
 
         <!---- Navigation ---->
 
-        <nav class="nav-bar">
+        <nav class="navbar">
             <div class="nav-container">
                 <div class="nav-logo">
                     <a href="#home">Tazdik Wazi Orshan</a>
@@ -24,21 +24,186 @@
                     <li class="nav-item">
                         <a href="#about" class="nav-link">About</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Contact" class="nav-link">Leave a Message!</a>
+                    </li>
                 </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </div>
         </nav>
 
+        
         <!---- Home Section--->
-
         <section id="home" class="hero">
-            <div class="hero-content">
-                <h1>Hello, I'm <span class="highlight">Tazdik Wazi Orshan</span></h1>
-                <p>Full-time Computer Science Student</p>
-                <a href="#projects" class="cta-button">View My Work!</a>
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Hello, I'm <span class="highlight">Tazdik Wazi Orshan</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Full-time Computer Science Student
+                    </p>
+                    <p class="hero-subtitle">
+                        Trying to find my way to get into the tech world!
+                    </p>
+                    <div class="hero-button">
+                        <a href="#projects" class="btn btn-secondary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!--- About Section --->
-        <section id="about"></section>
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+
+                        </p>
+                        <div class="skills-section">
+                            <h3>Technologies I Use</h3>
+                            <div class="skill-category">
+                                <h4>Frontend</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">JavaScript</span>
+                                    <span class="skill-tag">HTML/CSS</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Backend</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Node.js</span>
+                                    <span class="skill-tag">SQL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder">Project Image</div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">SalatTime</h3>
+                            <p class="project-description">
+                               A JavaFX application which displays the user's local prayer times for a specified location. (still working on it)
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">JavaFX</span>
+                                <span class="tech-tag">SQL</span>
+                            </div>
+                            <div class="project-links">
+                                <!--<a href="#" class="project-link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                    Live Demo
+                                </a>-->
+                                <a href="https://github.com/Tzar-T70/SalatTime" class="project-link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3 class="job-title">Volunteer</h3>
+                            <p class="company">Sue Ryder</p>
+                            <p class="duration">January 2025 - March 2025</p>
+                            <ul class="job-description">
+                                <li>Delivered efficient, friendly customer service at till operations, building loyalty through positive donor interaction.</li>
+                                <li>Maintained visually appealing store displays by accurately sorting, labelling and replenishing donated goods (e.g., clothing, books), ensuring stock availability.</li>
+                                <li>Supported inventory accuracy and sales goals by meticulously recording donations and collaborating with team members. </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <p class="contact-description">
+                        I'm always open to discussing new opportunities and interesting projects.
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:tazdikorshan@gmail.com" class="contact-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            Email
+                        </a>
+                        <a href="https://linkedin.com/in/tazdik-wazi-orshan-8042702a1" class="contact-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/tazdikorshan" class="contact-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2025 Tazdik Wazi Orshan
+                </p>
+            </div>
+        </footer>
+
+        <script src="scripts/script.js"></script>
     </body>
 </html>
